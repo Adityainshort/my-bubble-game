@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Luckiest+Guy&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;padding: 0;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Baloo 2','Luckiest Guy';
+}
+.main{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(143, 143, 232);
+}
+.cont{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 20PX;
+    overflow: hidden;
+    
+}
+.top{
+    margin-bottom: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(113 113 197);
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10PX;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elem{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    color: rgb(92, 92, 150);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 143, 232);
+    font-size: 25px;
+    font-weight: 600;
+} 
+.bubble:hover{
+    background-color:rgb(132, 132, 211);
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.gameover{
+    font-family:'Luckiest Guy';
+    font-size: 100px;
+    color:rgb(143, 143, 232);   
+}
